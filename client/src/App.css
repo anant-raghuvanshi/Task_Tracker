@@ -1,0 +1,134 @@
+body{
+  background-color: #F1EFEF;
+}
+.outerDiv{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.showTodos{
+  height:100px;
+  width: 70%;
+}
+
+.todos{
+  width: 1000px;
+  margin: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 20px; 
+}
+
+.typetodos{
+  border : 2px solid red;
+  height: 1000px;
+  width: 1000px;
+}
+
+h1{
+  font-size: 80px;
+  color: #2c3e50;
+  font-weight: 200;
+} 
+
+input {
+  font-size: 20px;
+  color: #2c3e50;
+  align-items: center;
+  width: 100%;
+  border: none;
+  outline: none;
+  border-bottom: 1px solid #2c3e50;
+  margin: 5px;
+  padding: 5px;
+}
+
+.form{
+  width: 500px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin: auto;
+}
+
+.typetodos{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.button{
+  margin-left:20px;
+  height:25px;
+  padding:4px;
+  margin:10px;
+}
+
+.allTodoList{
+  display: flex;
+  flex-direction: row;
+  border: 1px solid black;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.doneTodoList{
+  display: flex;
+  flex-direction: row;
+  border: 1px solid black;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.activeTodoList{
+  display: flex;
+  flex-direction: row;
+  border: 1px solid black;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.contentActiveTodo{
+  padding-left: 20px;
+  height: 70%;
+  width: 75%;
+}
+
+.contentDoneTodo{
+  padding-left: 20px;
+  height: 70%;
+  width: 75%;
+}
+
+.contentAllTodo{
+  padding-left: 20px;
+  height: 70%;
+  width: 75%;
+}
+
+.done{
+  height:70%;
+  padding: 4px 10px 4px 10px;
+  margin-left: 5px;
+}
+
+.done:hover{
+  color:rgb(223, 16, 106);
+  cursor: pointer;
+}
+
+.reactive{
+  height:70%;
+  padding: 4px 10px 4px 10px;
+  margin-left: 5px;
+  margin-right: 1px;
+}
+
+.reactive:hover{
+  color:orange;
+  cursor: pointer;
+}
